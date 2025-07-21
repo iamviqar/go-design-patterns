@@ -1,10 +1,19 @@
 # Factory Method Pattern
 
+## Real World Example
+🏭 Consider the case of a hiring manager. It is impossible for one person to interview for each of the positions. Based on the job opening, she has to decide and delegate the interview steps to different people.
+
+## In Plain Words
+It provides a way to delegate the instantiation logic to child classes.
+
+## Wikipedia Definition
+In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor.
+
 ## Intent
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
 ## Problem Solved
-When a class needs to instantiate one of several possible classes, or when a class wants its subclasses to specify the objects it creates.
+Useful when there is some generic processing in a class but the required sub-class is dynamically decided at runtime. Or putting it in other words, when the client doesn't know what exact sub-class it might need.
 
 ## Go Implementation
 

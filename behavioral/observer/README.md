@@ -1,5 +1,14 @@
 # Observer Pattern
 
+## Real World Example
+😎 A good example would be the job seekers where they subscribe to some job posting site and they are notified whenever there is a matching job opportunity.
+
+## In Plain Words
+Defines a dependency between objects so that whenever an object changes its state, all its dependents are notified.
+
+## Wikipedia Definition
+The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+
 ## Intent
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 

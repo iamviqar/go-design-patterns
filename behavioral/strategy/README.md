@@ -1,5 +1,14 @@
 # Strategy Pattern
 
+## Real World Example
+🏃 Consider the example of sorting, we implemented bubble sort but the data started to grow and bubble sort started getting very slow. In order to tackle this we implemented Quick sort. But now although the quick sort algorithm was doing better for large datasets, it was very slow for smaller datasets. In order to handle this we implemented a strategy where for small datasets, bubble sort will be used and for larger, quick sort.
+
+## In Plain Words
+Strategy pattern allows you to switch the algorithm or strategy based upon the situation.
+
+## Wikipedia Definition
+In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design pattern that enables selecting an algorithm at runtime.
+
 ## Intent
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 

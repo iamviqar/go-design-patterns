@@ -14,33 +14,33 @@ This project contains working Go implementations of all design patterns from the
 ## Project Structure
 
 ### Creational Patterns
-- **Simple Factory** - `creational/simplefactory/` → [README](creational/simplefactory/README.md)
-- **Factory Method** - `creational/factorymethod/` → [README](creational/factorymethod/README.md)
-- **Abstract Factory** - `creational/abstractfactory/` → [README](creational/abstractfactory/README.md)
-- **Builder** - `creational/builder/` → [README](creational/builder/README.md)
-- **Prototype** - `creational/prototype/` → [README](creational/prototype/README.md)
-- **Singleton** - `creational/singleton/` → [README](creational/singleton/README.md)
+- **Simple Factory** - [creational/simplefactory/](creational/simplefactory/)
+- **Factory Method** - [creational/factorymethod/](creational/factorymethod/)
+- **Abstract Factory** - [creational/abstractfactory/](creational/abstractfactory/)
+- **Builder** - [creational/builder/](creational/builder/)
+- **Prototype** - [creational/prototype/](creational/prototype/)
+- **Singleton** - [creational/singleton/](creational/singleton/)
 
 ### Structural Patterns
-- **Adapter** - `structural/adapter/` → [README](structural/adapter/README.md)
-- **Bridge** - `structural/bridge/` → [README](structural/bridge/README.md)
-- **Composite** - `structural/composite/` → [README](structural/composite/README.md)
-- **Decorator** - `structural/decorator/` → [README](structural/decorator/README.md)
-- **Facade** - `structural/facade/` → [README](structural/facade/README.md)
-- **Flyweight** - `structural/flyweight/` → [README](structural/flyweight/README.md)
-- **Proxy** - `structural/proxy/` → [README](structural/proxy/README.md)
+- **Adapter** - [structural/adapter/](structural/adapter/)
+- **Bridge** - [structural/bridge/](structural/bridge/)
+- **Composite** - [structural/composite/](structural/composite/)
+- **Decorator** - [structural/decorator/](structural/decorator/)
+- **Facade** - [structural/facade/](structural/facade/)
+- **Flyweight** - [structural/flyweight/](structural/flyweight/)
+- **Proxy** - [structural/proxy/](structural/proxy/)
 
 ### Behavioral Patterns
-- **Chain of Responsibility** - `behavioral/chainofresponsibility/` → [README](behavioral/chainofresponsibility/README.md)
-- **Command** - `behavioral/command/` → [README](behavioral/command/README.md)
-- **Iterator** - `behavioral/iterator/` → [README](behavioral/iterator/README.md)
-- **Mediator** - `behavioral/mediator/` → [README](behavioral/mediator/README.md)
-- **Memento** - `behavioral/memento/` → [README](behavioral/memento/README.md)
-- **Observer** - `behavioral/observer/` → [README](behavioral/observer/README.md)
-- **Visitor** - `behavioral/visitor/` → [README](behavioral/visitor/README.md)
-- **Strategy** - `behavioral/strategy/` → [README](behavioral/strategy/README.md)
-- **State** - `behavioral/state/` → [README](behavioral/state/README.md)
-- **Template Method** - `behavioral/templatemethod/` → [README](behavioral/templatemethod/README.md)
+- **Chain of Responsibility** - [behavioral/chainofresponsibility/](behavioral/chainofresponsibility/)
+- **Command** - [behavioral/command/](behavioral/command/)
+- **Iterator** - [behavioral/iterator/](behavioral/iterator/)
+- **Mediator** - [behavioral/mediator/](behavioral/mediator/)
+- **Memento** - [behavioral/memento/](behavioral/memento/)
+- **Observer** - [behavioral/observer/](behavioral/observer/)
+- **Visitor** - [behavioral/visitor/](behavioral/visitor/)
+- **Strategy** - [behavioral/strategy/](behavioral/strategy/)
+- **State** - [behavioral/state/](behavioral/state/)
+- **Template Method** - [behavioral/templatemethod/](behavioral/templatemethod/)
 
 ## How to Run
 
@@ -116,7 +116,7 @@ Each design pattern implementation includes:
 - Real-world use cases and benefits
 - Go-specific implementation details
 
-Click on the README links above to learn about each specific pattern implementation.
+Click on the pattern folder links above to explore each specific pattern implementation.
 
 ## Requirements
 
